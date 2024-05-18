@@ -1,0 +1,72 @@
+2024/05/18 18:58:17 Starting server on :8080
+IP :  [::1]:49673
+X-Forwarded-For :
+
+Request:
+&{
+  Method: GET
+  URL: /users
+  Proto: HTTP/1.1
+  ProtoMajor: 1
+  ProtoMinor: 1
+  Header: map[
+    Accept:[*/*]
+    Accept-Encoding:[gzip, deflate, br]
+    Cache-Control:[no-cache]
+    Connection:[keep-alive]
+    Postman-Token:[3ea04262-e486-4af0-9c40-81ffc88300be]
+    User-Agent:[PostmanRuntime/7.32.1]
+  ]
+  Body: {}
+  ContentLength: 0 
+  TransferEncoding: []
+  Close: false
+  Host: localhost:8080
+  Form: map[]
+  PostForm: map[]
+  MultipartForm: <nil>
+  Trailer: map[]
+  RemoteAddr: [::1]:49673
+  RequestURI: /users
+  TLS: <nil>
+  Cancel: <nil>
+  Response: <nil>
+  ctx: 0x14000110190
+  mu: 0x14000132180
+  BodyUsed: []
+  GetBody: map[]
+}
+
+Response:
+&{
+  conn: 0x14000178090
+  req: 0x1400014c360
+  w: {}
+  r: 0x100b66e40
+  wroteHeader: false
+  wroteContinue: false
+  wants10KeepAlive: false
+  expectsContinue: false
+  state: {{0 0} {}}
+  status: 0
+  header: 0x1400015a300
+  wroteHeaderStart: false
+  written: 0
+  flushes: -1
+  bodyAllowed: false
+  keepBody: false
+  eHandler: false
+  headerWrote: false
+  optionalWrote: false
+  partial: false
+  writtenHeader: []
+  readHeader: {{} 0}
+  reading: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+  writeBuf: [0 0 0 0 0 0 0 0 0 0]
+  writeHeaderBuf: [0 0 0]
+  ctx: 0x1400017c000
+  readByteHandler: {{} 0}
+}
+
+2024/05/18 18:58:23 Received request: GET /users
+2024/05/18 18:58:23 Handling GET request for /users
